@@ -25,19 +25,6 @@ public class BeforeAfterClassTest {
 		System.out.println("in after class");
 	}
 
-	// execute before test
-	@Before
-	public void before() {
-		firstValue = 10;
-		System.out.println("in before");
-	}
-
-	// execute after test
-	@After
-	public void after() {
-		System.out.println("in after");
-	}
-
 	@Test
 	public void testAdd() {
 		Calculator calculator = Calculator.getInstance();
