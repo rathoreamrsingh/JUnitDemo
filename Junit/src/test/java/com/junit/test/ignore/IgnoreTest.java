@@ -43,6 +43,7 @@ public class IgnoreTest {
 	@Test
 	public void testAdd() {
 		Calculator calculator = Calculator.getInstance();
+		System.out.println("inside-testAdd");
 		Assert.assertEquals(20, calculator.add(firstValue, secondValue));
 
 	}
@@ -50,6 +51,7 @@ public class IgnoreTest {
 	@Test
 	public void testMultiply() {
 		Calculator calculator = Calculator.getInstance();
+		System.out.println("inside-testMultiply");
 		Assert.assertEquals(100, calculator.multiply(firstValue, secondValue));
 	}
 
